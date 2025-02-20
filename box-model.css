@@ -1,0 +1,47 @@
+*{
+  margin: 0; padding: 0;
+
+}
+
+.c1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 2px solid green;
+}
+.c2{
+    height:200px ;
+    width: 200px;
+    background-color: rgb(171, 219, 30);
+    border: 2px solid green;
+  
+       
+  
+
+   display: flex;
+ 
+   align-items:center;
+   justify-content:center;
+}
+
+
+.contain{
+    display: flex;
+   height: 100vh;
+   /* align-items:center; */
+ 
+   position: relative;
+  left: 400px;
+   justify-content:center;
+   flex-direction: column;
+
+}
+
+
+.c2 h1{
+    position:relative;
+   color: yellow;
+   
+      top: 10px;
+
+}
